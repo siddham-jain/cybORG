@@ -1,0 +1,14 @@
+spec_version: 1
+name: cyborg
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+
+variables:
+  CYBORG_DEFAULT_TASK:
+    description: "Task mode: red_easy | blue_easy | dual"
+    default: "red_easy"
+  CYBORG_DEFAULT_DIFFICULTY:
+    description: "World difficulty: easy | medium | hard"
+    default: "easy"

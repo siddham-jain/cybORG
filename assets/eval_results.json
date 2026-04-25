@@ -1,0 +1,206 @@
+{
+  "task": "red_easy",
+  "difficulty": "easy",
+  "role": "red",
+  "episodes": 12,
+  "policies": [
+    {
+      "label": "random",
+      "episodes": 12,
+      "reward_mean": 0.08750000000000005,
+      "reward_std": 0.12437342963832752,
+      "reward_min": -0.10000000000000007,
+      "reward_max": 0.20000000000000007,
+      "win_rate_red": 0.0,
+      "win_rate_blue": 1.0,
+      "timeout_rate": 0.0,
+      "mean_episode_steps": 30,
+      "format_ok_rate": 1.0,
+      "per_seed": [
+        {
+          "seed": 0,
+          "reward": 0.05000000000000006,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 1,
+          "reward": -0.09999999999999995,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 2,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 3,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 4,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 5,
+          "reward": -0.10000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 6,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 7,
+          "reward": -0.09999999999999995,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 8,
+          "reward": 0.05000000000000006,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 9,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 10,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 11,
+          "reward": 0.05000000000000006,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        }
+      ]
+    },
+    {
+      "label": "heuristic",
+      "episodes": 12,
+      "reward_mean": 0.25000000000000006,
+      "reward_std": 0.15411035007422444,
+      "reward_min": -0.09999999999999995,
+      "reward_max": 0.5000000000000001,
+      "win_rate_red": 0.0,
+      "win_rate_blue": 1.0,
+      "timeout_rate": 0.0,
+      "mean_episode_steps": 30,
+      "format_ok_rate": 1.0,
+      "per_seed": [
+        {
+          "seed": 0,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 1,
+          "reward": 0.3500000000000001,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 2,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 3,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 4,
+          "reward": 0.3500000000000001,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 5,
+          "reward": 0.3500000000000001,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 6,
+          "reward": 0.05000000000000006,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 7,
+          "reward": -0.09999999999999995,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 8,
+          "reward": 0.3500000000000001,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 9,
+          "reward": 0.3500000000000001,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 10,
+          "reward": 0.20000000000000007,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        },
+        {
+          "seed": 11,
+          "reward": 0.5000000000000001,
+          "steps": 30,
+          "winner": "blue",
+          "format_ok_rate": 1.0
+        }
+      ]
+    }
+  ]
+}
