@@ -9,19 +9,6 @@ hard and the trainer dashboard rich.
 
 > **Theme**: Multi-Agent Interactions (with a sprinkle of World Modeling).
 
-## Repository map
-
-| Path | What lives there |
-|---|---|
-| [`PLAN.md`](PLAN.md) | The full design brief that drove every decision — read this for the "why" |
-| [`cyborg_env/`](cyborg_env/) | The OpenEnv package (server, client, manifest, Dockerfile) |
-| [`cyborg_env/README.md`](cyborg_env/README.md) | **The submission README** — story, quickstart, reward design, compliance checklist |
-| [`tests/`](tests/) | 32 pytest cases (`pytest tests/` — runs in <2s) |
-| [`training/cyborg_grpo.py`](training/cyborg_grpo.py) | TRL GRPO driver + Random/Heuristic baselines |
-| [`training/notebook.ipynb`](training/notebook.ipynb) | Colab notebook judges can run end-to-end |
-| `assets/` | Reward curve plots and demo transcripts produced by training runs |
-| `open-range/`, `PenGym/`, `CyberBattleSim/` | Reference work studied during design (not packaged) |
-
 ## Quick links
 
 * **Story, quickstart, and reward design**: [`cyborg_env/README.md`](cyborg_env/README.md)
@@ -31,7 +18,7 @@ hard and the trainer dashboard rich.
 * **Train baselines**:
   `python training/cyborg_grpo.py --baseline-only --episodes 32 --task red_easy --role red`
 
-## Hackathon judging coverage
+## Hackathon Judging Criteria
 
 | Criterion | Where to look |
 |---|---|
