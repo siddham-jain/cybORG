@@ -1,4 +1,4 @@
-# CybOrg — OpenEnv Hackathon Submission
+# cybORG — OpenEnv Hackathon Submission
 
 A multi-agent **cybersecurity reinforcement-learning environment** built on
 [OpenEnv](https://github.com/meta-pytorch/OpenEnv) for the April 2026 Meta
